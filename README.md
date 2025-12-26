@@ -1,8 +1,8 @@
-# DeepSeek-MoE: Advanced RL Expert Placement
+# DeepSeek-MoE: RL Expert Placement
 
-This repository implements state-of-the-art Reinforcement Learning (RL) strategies to optimize the placement of Mixture-of-Experts (MoE) experts across distributed devices.
+This repository implements a Reinforcement Learning (RL) strategies to optimize the placement of Mixture-of-Experts (MoE) experts across distributed devices.
 
-Traditional methods like **Simulated Annealing (SA)** are effective but computationally expensive (high latency) and struggle with changing traffic patterns. This project introduces two advanced RL strategies that surpass standard approaches:
+Traditional methods like **Simulated Annealing (SA)** are effective but computationally expensive (high latency) and struggle with changing traffic patterns. This project introduces two RL strategies that surpass standard approaches:
 
 1.  **Offline Imitation + Fine-Tuning**: A Neural Policy that matches SA's high quality (>28% Communication Reduction) but runs **100x faster** (<1ms inference).
 2.  **Dynamic Lifelong Learning**: An Adaptive Agent that intelligently balances Communication Cost vs. Migration Cost in real-time shifting environments.
